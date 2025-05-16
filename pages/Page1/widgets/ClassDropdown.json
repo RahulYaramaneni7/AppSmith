@@ -1,0 +1,74 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 13,
+  "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+  "defaultOptionValue": "6",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "onDropdownOpen"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    },
+    {
+      "key": "onDropdownOpen"
+    },
+    {
+      "key": "onFilterUpdate"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "wa2tlw3bmz",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "BOLD",
+  "labelText": "Class",
+  "labelTextColor": "#18181b",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 22,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 30,
+  "mobileLeftColumn": 15,
+  "mobileRightColumn": 35,
+  "mobileTopRow": 23,
+  "needsErrorInfo": false,
+  "onDropdownOpen": "",
+  "onFilterUpdate": "{{Query1.run()}}",
+  "onOptionChange": "",
+  "optionLabel": "name",
+  "optionValue": "code",
+  "parentColumnSpace": 14.234375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 42,
+  "serverSideFiltering": true,
+  "sourceData": "[\n  {\n    \"name\": \"6\",\n    \"code\": \"6\"\n  },\n  {\n    \"name\": \"7\",\n    \"code\": \"7\"\n  },\n  {\n    \"name\": \"8\",\n    \"code\": \"8\"\n  }\n]",
+  "topRow": 6,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "hhrxp8sn9k",
+  "widgetName": "ClassDropdown"
+}
